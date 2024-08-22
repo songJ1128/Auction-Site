@@ -7,13 +7,19 @@ This application is a full-stack auction site that allows users to register, log
 ## Features
 
 - **User Registration & Login**: Users can create an account and log in to access auction features.
-- **Auction Creation**: Registered users can create new auctions.
-- **View Auctions**: Users can view ongoing auctions with details and current bid amounts.
-- **Place Bids**: Users can place bids on auctions.
-- **Navigation**: Smooth navigation between login, registration, home, auction list, and auction creation pages.
+- **Auction Creation**: Registered users can create new auctions
+- **View Auctions**: Users can view current auctions with item descriptions, current bids, and end time
+- **Place Bids**: Users can place bids on auctioning items
+
 
 ## Technologies
 
 - **Frontend**: React
 - **Backend**: Express.js
 - **Database**: MySQL
+
+## Dependencies
+- nodemon
+- react router dom
+- bcrypt
+- axios
